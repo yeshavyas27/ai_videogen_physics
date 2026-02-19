@@ -1,0 +1,101 @@
+# Single-submesh OBJ extracted from house.obj
+# Cottage House Model (single-submesh variant)
+# Vertices (v)
+# Base of house (floor level)
+v -2.5 0.0 -2.5
+v 2.5 0.0 -2.5
+v 2.5 0.0 2.5
+v -2.5 0.0 2.5
+
+# Top of walls
+v -2.5 3.0 -2.5
+v 2.5 3.0 -2.5
+v 2.5 3.0 2.5
+v -2.5 3.0 2.5
+
+# Roof structure - base at wall top with overhang
+v -2.8 3.0 -2.8
+v 2.8 3.0 -2.8
+v 2.8 3.0 2.8
+v -2.8 3.0 2.8
+
+# Roof peak ridge
+v -2.8 4.8 0.0
+v 2.8 4.8 0.0
+
+# Door + frame vertices
+v -0.6 0.0 -2.51
+v 0.6 0.0 -2.51
+v 0.6 2.2 -2.51
+v -0.6 2.2 -2.51
+v -0.5 0.0 -2.52
+v 0.5 0.0 -2.52
+v 0.5 2.0 -2.52
+v -0.5 2.0 -2.52
+
+# Window vertices - left wall
+v -2.51 1.2 -1.0
+v -2.51 1.2 -0.2
+v -2.51 2.4 -0.2
+v -2.51 2.4 -1.0
+v -2.52 1.3 -0.9
+v -2.52 1.3 -0.3
+v -2.52 2.3 -0.3
+v -2.52 2.3 -0.9
+
+# Window vertices - right wall
+v 2.51 1.2 0.2
+v 2.51 1.2 1.0
+v 2.51 2.4 1.0
+v 2.51 2.4 0.2
+v 2.52 1.3 0.3
+v 2.52 1.3 0.9
+v 2.52 2.3 0.9
+v 2.52 2.3 0.3
+
+# Window vertices - back wall
+v -0.8 1.2 2.51
+v 0.8 1.2 2.51
+v 0.8 2.4 2.51
+v -0.8 2.4 2.51
+v -0.7 1.3 2.52
+v 0.7 1.3 2.52
+v 0.7 2.3 2.52
+v -0.7 2.3 2.52
+
+# Stone foundation trim
+v -2.5 0.0 -2.5
+v 2.5 0.0 -2.5
+v 2.5 0.5 -2.5
+v -2.5 0.5 -2.5
+v -2.5 0.0 2.5
+v 2.5 0.0 2.5
+v 2.5 0.5 2.5
+v -2.5 0.5 2.5
+
+# Vertex Normals (vn)
+vn 0.0 -1.0 0.0
+vn 0.0 1.0 0.0
+vn 0.0 0.0 -1.0
+vn 0.0 0.0 1.0
+vn -1.0 0.0 0.0
+vn 1.0 0.0 0.0
+vn 0.0 0.7071 -0.7071
+vn 0.0 0.7071 0.7071
+vn -0.7071 0.7071 0.0
+vn 0.7071 0.7071 0.0
+
+
+# Faces - Walls
+# Front wall
+f 1//3 5//3 6//3
+f 1//3 6//3 2//3
+# Back wall
+f 4//4 3//4 7//4
+f 4//4 7//4 8//4
+# Left wall
+f 1//5 4//5 8//5
+f 1//5 8//5 5//5
+# Right wall
+f 2//6 6//6 7//6
+f 2//6 7//6 3//6

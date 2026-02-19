@@ -1,0 +1,9 @@
+# Airfoil Fin Material Library
+
+newmtl fin_material
+Ka 0.1 0.1 0.1
+Kd 0.1 0.1 0.1
+Ks 0.3 0.3 0.3
+Ns 50.0
+d 1.0
+illum 2
